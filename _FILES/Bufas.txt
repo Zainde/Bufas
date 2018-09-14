@@ -1,0 +1,25 @@
+BUFAS:
+Møbler og Accesories til børneværelset.
+
+2 - 4 Ansatte inkl. administration og kontor.
+
+Produktsider med detaljer om produkterne. Udkast til købsformular/kontakt.
+
+Forventninger til pris. I første omgang: 20 - 25.000,? Inkl. etablering og upload til Ftp.
+
+Hvad vil det koste at få lavet et Back-End / CMS?
+
+BESKRIVELSE:
+
+Bufas sælger møbler og accesories til børneværelset.
+
+Kunden vil gerne have en side der inspirerer og engagerer.
+Overordnet skal også ganske små børn kunne navigere rundt på siden?
+
+Der er 3 overordnede underkategorier:
+
+	Små børn/Spædbørn
+	Piger
+	Drenge
+
+Kunden har ikke leveret en hel masse udover et udkast til et overordnet design, der må gerne udvikles alternative designforslag i samarbejde med kunden, men de overordnede farver er dem der er i butikken, og de skal fastholdes.
