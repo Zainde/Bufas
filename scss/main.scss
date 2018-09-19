@@ -37,18 +37,23 @@ input{
         font-size: 3em;
         font-family: 'luna';
         color: #666;
-        //
+        
     }
     img{
         grid-row: 1/4;
         width: 100%;
         grid-column: 1/2;
     }
+    //
 }
 footer{
+    //
+    //
+    height: 45vh;
     background-color: mintcream;
 }
 nav{
+    z-index: 20;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;

@@ -58,13 +58,15 @@ header .seach_bar {
   grid-column: 1/2;
 }
 
-/* line 48, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 49, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer {
+  height: 45vh;
   background-color: mintcream;
 }
 
-/* line 51, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 55, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 nav {
+  z-index: 20;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 8px;
@@ -76,7 +78,7 @@ nav {
   bottom: 0%;
 }
 
-/* line 62, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 67, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 nav a img {
   width: 100%;
 }
