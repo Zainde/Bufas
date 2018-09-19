@@ -37,7 +37,7 @@ input{
         font-size: 3em;
         font-family: 'luna';
         color: #666;
-        
+
     }
     img{
         grid-row: 1/4;
@@ -51,6 +51,13 @@ footer{
     //
     height: 45vh;
     background-color: mintcream;
+    .social-media{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      a img{
+        width: 100%;
+      }
+    }
 }
 nav{
     z-index: 20;
