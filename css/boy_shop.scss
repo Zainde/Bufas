@@ -15,3 +15,18 @@
     color: white;
   }
 }
+
+.filter{
+  ul{
+    border: 1px solid red;
+    >li{
+      border: 1px solid black;
+      >ul{
+        display: hidden;
+      }
+      &:hover>ul{
+        display: block;
+      }
+    }
+  }
+}
