@@ -1,0 +1,7 @@
+.product_box {
+  overflow: hidden;
+}
+
+.product_box:hover {
+  overflow: visible;
+}
