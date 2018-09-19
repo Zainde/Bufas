@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@font-face {
+  font-family: luna;
+  font-weight: normal;
+  src: url(../luna_2/Luna.ttf) format("truetype");
+  font-style: normal;
+}
+
+/* line 9, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ffd9e6;
+  background: linear-gradient(90deg, #ffd9e6 0%, #b6e2ff 100%);
+}
+
+/* line 14, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+header img {
+  width: 100%;
+}
+
+/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+header input {
+  display: flex;
+  align-self: center;
+}
+
+/* line 21, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+header .seach_bar {
+  width: 75%;
+  height: 40%;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Font Awesome\ 5 Free;
+}
+
+/* line 29, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+.bla {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* line 32, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+.bla h1 {
+  grid-row: 2/3;
+  text-align: center;
+  grid-column: 1/2;
+  z-index: 10;
+  font-size: 3em;
+  font-family: 'luna';
+  color: #666;
+}
+
+/* line 42, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+.bla img {
+  grid-row: 1/4;
+  width: 100%;
+  grid-column: 1/2;
+}
+
+/* line 49, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+footer {
+  height: 45vh;
+  background-color: mintcream;
+}
+
+/* line 55, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+nav {
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background: #b6e2ff;
+  background: linear-gradient(90deg, #b6e2ff 0%, #ffd9e6 100%);
+  bottom: 0%;
+}
+
+/* line 67, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+nav a img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=../css/main.map */

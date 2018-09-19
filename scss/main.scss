@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@font-face {
+    font-family: luna;
+    font-weight: normal;
+src: url(../luna_2/Luna.ttf) format("truetype");
+font-style: normal;
+
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(255,217,230);
+background: linear-gradient(90deg, rgba(255,217,230,1) 0%, rgba(182,226,255,1) 100%);
+img{
+    width: 100%;
+}
+input{
+    display: flex;
+    align-self: center;
+}
+.seach_bar{
+    width: 75%;
+    height: 40%;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Font Awesome\ 5 Free;
+}
+}
+.bla{
+    display:grid;
+    grid-template-columns: 1fr;
+    h1{
+        grid-row: 2/3;
+        text-align: center;
+        grid-column: 1/2;
+        z-index: 10;
+        font-size: 3em;
+        font-family: 'luna';
+        color: #666;
+        
+    }
+    img{
+        grid-row: 1/4;
+        width: 100%;
+        grid-column: 1/2;
+    }
+    //
+}
+footer{
+    //
+    //
+    height: 45vh;
+    background-color: mintcream;
+}
+nav{
+    z-index: 20;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background: rgb(182,226,255);
+    background: linear-gradient(90deg, rgba(182,226,255,1) 0%, rgba(255,217,230,1) 100%);
+    bottom: 0%;
+    a{
+    img{
+        width: 100%;
+    }
+    }
+}
