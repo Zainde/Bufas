@@ -17,3 +17,27 @@
   background-color: rgba(55, 55, 55, 0.5);
   color: white;
 }
+
+.filter ul {
+  border: 1px solid red;
+}
+
+.filter ul > li {
+  border: 1px solid black;
+}
+
+.filter ul > li > ul li {
+  display: none;
+}
+
+.filter ul > li:hover > ul li {
+  display: block;
+}
+
+.filter ul li {
+  border: 1px solid black;
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+  box-shadow: 10px 5px 15px black;
+}
