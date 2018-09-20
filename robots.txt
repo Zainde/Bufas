@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /_FILES/funktionsbeskrivelse/
+Disallow:  /_FILES/næ/
+Disallow:  /_FILES/wireframes/
+Disallow:  /scss/
+Disallow:  /README.md
+Disallow:  /Bufas.pdf
+Disallow:  /.DS_Store
