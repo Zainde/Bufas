@@ -1,0 +1,88 @@
+// /**************************************************
+// Media query settings for screen and prints
+// ***************************************************/
+// @import 'misc'; // For Mixtend hack and various other
+
+////
+/// This is a poster comment.
+/// It will apply annotations to all items from file.
+/// @group Media quiries
+/// @author Michael Koch
+////
+
+
+$tablet-width: 768px !default;
+$dekstop-width: 1024px !default;
+$mqBuffer: 1px !default;
+
+/// Mixin to make specific compile placement mediaqueries
+/// @author Michael Koch
+/// @param {px} $tablet-width - Below is phone. Between $tablet-width and $dekstop-width is tablet
+/// @param {px} $desktop-width - Above this is desktop
+@mixin mediaQueries($tablet-width, $desktop-width) {
+    @media screen and (max-width: #{$tablet-width - $mqBuffer}) {
+      // /* Mediaquery for Phones */
+    }
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - $mqBuffer}) {
+        // /* Mediaquery for tablet */
+    }
+
+    @media (min-width: #{$desktop-width}) {
+        // /* Mediaquery for desktop */
+    }
+}
+
+/// Mixin to make mediaqueries for phone
+/// Use like: @include mq-phone{ color: black; }
+/// @author Michael Koch
+
+@mixin mq-phone{
+    @media screen and (max-width: #{$tablet-width - $mqBuffer}) {
+        /* PHONE MQ */
+      @content;
+    }
+}
+
+/// Mixin to make mediaqueries for tablet
+/// Use like: @include mq-tablet{ color: black; }
+/// @author Michael Koch
+
+@mixin mq-tablet {
+    @media screen and (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - $mqBuffer}) {
+        /* TABLET MQ */
+      @content;
+    }
+  }
+
+/// Mixin to make mediaqueries for dekstop
+/// Use like: @include mq-desktop{ color: black; }
+/// @author Michael Koch
+
+  @mixin mq-desktop {
+    @media screen and (min-width: #{$desktop-width}) {
+        /* DESKTOP MQ */
+      @content;
+    }
+  }
+
+/// Mixin to make custom mediaqueries
+/// Use like: @include mq-custom(700px, 1200px){ color: black; }
+/// @author Michael Koch
+/// @param {px} $min - Minimum size
+/// @param {px} $max - Maximum size
+  @mixin mq-custom($min, $max) {
+    @media screen and (min-width: #{$min}) and (max-width: #{$max - $mqBuffer}) {
+        /* CUSTOM MQ */
+      @content;
+    }
+  }
+
+/// Mixin to make print mediaqueries
+/// Use like: @include mq-print{ color: black; }
+/// @author Michael Koch
+  @mixin mq-print {
+    @media print {
+        /* PRINT MQ */
+      @content;
+    }
+  }

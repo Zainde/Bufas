@@ -84,18 +84,18 @@ footer {
   height: 28vh;
 }
 
-/* line 75, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 73, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* line 78, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 76, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 footer .social-media a img {
   width: 100%;
 }
 
-/* line 84, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 82, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 nav {
   z-index: 20;
   display: grid;
@@ -109,17 +109,17 @@ nav {
   bottom: 0%;
 }
 
-/* line 96, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 94, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 nav a img {
   width: 100%;
 }
 
-/* line 103, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 101, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 106, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 104, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -127,24 +127,74 @@ header {
   background: linear-gradient(90deg, #ffd9e6 0%, #b6e2ff 100%);
 }
 
-/* line 111, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 109, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header img {
   width: 100%;
 }
 
-/* line 114, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 112, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header input {
   display: flex;
   align-self: center;
 }
 
-/* line 118, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+/* line 116, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header .seach_bar {
   width: 75%;
   height: 40%;
   font-size: 1.5em;
   font-weight: bold;
   font-family: Font Awesome\ 5 Free;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 131, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 40vh);
+  }
+  /* line 135, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  main .product_box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* line 138, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  main .product_box:hover figcaption {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  /* line 142, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  main .product_box img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    object-fit: scale-down;
+    width: auto;
+    height: 100%;
+  }
+  /* line 149, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  main .product_box figcaption {
+    opacity: 0;
+  }
+  /* line 157, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  section .filter {
+    font-size: 1.5em;
+    width: 20vw;
+  }
+  /* line 163, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  section .filter ul > li > ul {
+    position: absolute;
+    left: calc(4% - 1vw);
+  }
+  /* line 167, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  section .filter ul > li > ul li {
+    width: 13vw;
+    font-size: 0.8em;
+  }
+  /* line 172, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  section .filter ul > li:hover > ul li:hover {
+    background-color: rgba(55, 55, 55, 0.7);
+  }
 }
 
 /*# sourceMappingURL=../css/boy_shop.map */
