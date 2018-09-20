@@ -6,6 +6,13 @@ src: url(../luna_2/Luna.ttf) format("truetype");
 font-style: normal;
 
 }
+*{
+    margin: 0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,10 +31,18 @@ input{
     font-size: 1.5em;
     font-weight: bold;
     font-family: Font Awesome\ 5 Free;
+
+
 }
+
+}
+.container{
+    display: grid;
+    gap: 2vh;
 }
 .bla{
-    display:grid;
+    display:grid; 
+    
     grid-template-columns: 1fr;
     h1{
         grid-row: 2/3;
@@ -37,20 +52,22 @@ input{
         font-size: 3em;
         font-family: 'luna';
         color: #666;
-
+//
+//
     }
     img{
+     
         grid-row: 1/4;
         width: 100%;
         grid-column: 1/2;
     }
     //
+    //
 }
 footer{
     //
     //
-    height: 45vh;
-    background-color: mintcream;
+    height: 28vh;
     .social-media{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -74,5 +91,6 @@ nav{
     img{
         width: 100%;
     }
+    //
     }
 }
