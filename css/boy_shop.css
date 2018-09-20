@@ -152,48 +152,45 @@ header .seach_bar {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 40vh);
-  }
-  /* line 135, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  main .product_box {
-    display: grid;
-    grid-template-columns: 1fr;
   }
   /* line 138, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  main .product_box:hover figcaption {
-    opacity: 1;
-    transition: 0.5s;
-  }
-  /* line 142, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  main .product_box img {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    object-fit: scale-down;
-    width: auto;
-    height: 100%;
-  }
-  /* line 149, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  main .product_box figcaption {
-    opacity: 0;
-  }
-  /* line 157, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter {
     font-size: 1.5em;
     width: 20vw;
   }
-  /* line 163, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  /* line 144, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li > ul {
     position: absolute;
     left: calc(4% - 1vw);
   }
-  /* line 167, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  /* line 148, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li > ul li {
     width: 13vw;
     font-size: 0.8em;
   }
-  /* line 172, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  /* line 153, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li:hover > ul li:hover {
     background-color: rgba(55, 55, 55, 0.7);
+  }
+  /* line 164, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  .product_box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* line 168, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  .product_box:hover figcaption {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  /* line 172, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  .product_box img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+  }
+  /* line 177, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
+  .product_box figcaption {
+    opacity: 0;
   }
 }
 
