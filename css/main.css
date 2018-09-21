@@ -67,50 +67,30 @@ header .seach_bar {
   color: #666;
 }
 
-<<<<<<< HEAD
-/* line 59, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 59, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+
 .bla img {
   grid-row: 1/4;
   grid-column: 1/2;
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 68, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 68, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+
 footer {
   height: 28vh;
 }
 
-<<<<<<< HEAD
-/* line 72, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 72, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-<<<<<<< HEAD
-/* line 75, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 75, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+
 footer .social-media a img {
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* line 80, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 80, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+
 nav {
   z-index: 20;
   display: grid;
@@ -124,11 +104,6 @@ nav {
   bottom: 0%;
 }
 
-<<<<<<< HEAD
-/* line 92, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-=======
-/* line 92, C:/Users/Zainde/github/Bufas/scss/main.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
 nav a img {
   width: 100%;
 }
