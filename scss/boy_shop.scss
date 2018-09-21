@@ -47,7 +47,7 @@ section{
       > ul li{
         display: none;
       }
-      &:hover, &:active> ul li{
+      &:hover > ul li, &:active > ul li{
         margin: 5px;
         padding: 3px;
         display: block;

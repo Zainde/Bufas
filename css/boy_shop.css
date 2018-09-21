@@ -59,14 +59,14 @@ section .filter ul > li > ul li {
 }
 
 /* line 50, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-section .filter ul > li:hover, section .filter ul > li:active > ul li {
+section .filter ul > li:hover > ul li, section .filter ul > li:active > ul li {
   margin: 5px;
   padding: 3px;
   display: block;
 }
 
 /* line 54, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-section .filter ul > li:hover:hover, section .filter ul > li:hover:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
+section .filter ul > li:hover > ul li:hover, section .filter ul > li:hover > ul li:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
   transform: scale(1.05);
   background-color: rgba(55, 55, 55, 0.5);
 }
