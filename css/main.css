@@ -25,7 +25,7 @@ header {
 }
 
 /* line 21, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-header img {
+header a img {
   width: 100%;
 }
 
@@ -68,29 +68,33 @@ header .seach_bar {
 }
 
 /* line 58, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
-.bla img {
+.bla a {
   grid-row: 1/4;
-  width: 100%;
   grid-column: 1/2;
 }
 
-/* line 67, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 62, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+.bla a img {
+  width: 100%;
+}
+
+/* line 72, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer {
   height: 28vh;
 }
 
-/* line 71, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* line 74, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 79, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer .social-media a img {
   width: 100%;
 }
 
-/* line 79, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 84, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 nav {
   z-index: 20;
   display: grid;
@@ -104,7 +108,7 @@ nav {
   bottom: 0%;
 }
 
-/* line 91, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 96, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 nav a img {
   width: 100%;
 }
