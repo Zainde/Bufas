@@ -58,14 +58,14 @@ section .filter ul > li > ul li {
 }
 
 /* line 49, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-section .filter ul > li:hover > ul li {
+section .filter ul > li:hover, section .filter ul > li:active > ul li {
   margin: 5px;
   padding: 3px;
   display: block;
 }
 
 /* line 53, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-section .filter ul > li:hover > ul li:hover {
+section .filter ul > li:hover:hover, section .filter ul > li:hover:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
   transform: scale(1.05);
   background-color: rgba(55, 55, 55, 0.5);
 }
@@ -160,7 +160,7 @@ header .seach_bar {
     grid-template-columns: 1fr;
   }
   /* line 138, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  main .product_box:hover figcaption {
+  main .product_box:hover figcaption, main .product_box:active figcaption {
     opacity: 1;
     transition: 0.5s;
   }
@@ -192,7 +192,7 @@ header .seach_bar {
     font-size: 0.8em;
   }
   /* line 172, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
-  section .filter ul > li:hover > ul li:hover {
+  section .filter ul > li:hover:hover, section .filter ul > li:hover:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
     background-color: rgba(55, 55, 55, 0.7);
   }
 }

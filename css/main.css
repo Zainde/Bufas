@@ -67,34 +67,30 @@ header .seach_bar {
   color: #666;
 }
 
-/* line 58, C:/Users/Zainde/github/Bufas/scss/main.scss */
-.bla a {
+/* line 59, C:/Users/Zainde/github/Bufas/scss/main.scss */
+.bla img {
   grid-row: 1/4;
   grid-column: 1/2;
-}
-
-/* line 62, C:/Users/Zainde/github/Bufas/scss/main.scss */
-.bla a img {
   width: 100%;
 }
 
-/* line 72, C:/Users/Zainde/github/Bufas/scss/main.scss */
+/* line 68, C:/Users/Zainde/github/Bufas/scss/main.scss */
 footer {
   height: 28vh;
 }
 
-/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 72, C:/Users/Zainde/github/Bufas/scss/main.scss */
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* line 79, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 75, C:/Users/Zainde/github/Bufas/scss/main.scss */
 footer .social-media a img {
   width: 100%;
 }
 
-/* line 84, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
+/* line 80, C:/Users/Zainde/github/Bufas/scss/main.scss */
 nav {
   z-index: 20;
   display: grid;
@@ -108,7 +104,7 @@ nav {
   bottom: 0%;
 }
 
-/* line 96, C:/Users/Zainde/github/Bufas/scss/main.scss */
+/* line 92, C:/Users/Zainde/github/Bufas/scss/main.scss */
 nav a img {
   width: 100%;
 }
