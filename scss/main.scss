@@ -39,6 +39,10 @@ input{
 .container{
     display: grid;
     gap: 2vh;
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
 }
 .bla{
     display:grid;
