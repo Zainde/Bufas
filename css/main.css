@@ -83,18 +83,18 @@ footer {
   height: 28vh;
 }
 
-/* line 76, C:/Users/Zainde/github/Bufas/scss/main.scss */
+/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* line 79, C:/Users/Zainde/github/Bufas/scss/main.scss */
+/* line 79, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 footer .social-media a img {
   width: 100%;
 }
 
-/* line 84, C:/Users/Zainde/github/Bufas/scss/main.scss */
+/* line 84, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/main.scss */
 nav {
   z-index: 20;
   display: grid;
