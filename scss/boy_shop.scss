@@ -46,11 +46,11 @@ section{
       > ul li{
         display: none;
       }
-      &:hover > ul li{
+      &:hover, &:active> ul li{
         margin: 5px;
         padding: 3px;
         display: block;
-        &:hover{
+        &:hover, &:active{
           transform: scale(1.05);
           background-color:rgba(55,55,55,0.5);
         }
@@ -135,7 +135,7 @@ main{
   .product_box{
     display: grid;
     grid-template-columns: 1fr;
-    &:hover figcaption{
+    &:hover figcaption, &:active figcaption{
       opacity: 1;
       transition: 0.5s;
     }
@@ -168,8 +168,8 @@ section{
         width: 13vw;
         font-size: 0.8em;
       }
-      &:hover > ul li{
-        &:hover{
+      &:hover, &:active> ul li{
+        &:hover, &:active{
           background-color:rgba(55,55,55,0.7);
         }
       }
