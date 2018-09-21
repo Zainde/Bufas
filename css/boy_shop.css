@@ -6,20 +6,20 @@
   font-style: normal;
 }
 
-/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 11, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 .product_box {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-/* line 14, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 14, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 .product_box img {
   grid-column: 1/2;
   grid-row: 1/3;
   width: 100%;
 }
 
-/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 19, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 .product_box figcaption {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -28,7 +28,7 @@
   color: white;
 }
 
-/* line 32, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 32, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section h1 {
   text-transform: capitalize;
   text-align: center;
@@ -37,49 +37,43 @@ section h1 {
   color: #666;
 }
 
-/* line 40, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 40, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter {
   width: 85%;
 }
 
-/* line 42, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 42, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul {
+  cursor: pointer;
   text-transform: uppercase;
 }
 
-/* line 44, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 45, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul > li {
   padding: 4px;
 }
 
-/* line 46, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 47, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul > li > ul li {
   display: none;
 }
 
-<<<<<<< HEAD
-/* line 49, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
-=======
-/* line 49, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+/* line 50, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul > li:hover, section .filter ul > li:active > ul li {
   margin: 5px;
   padding: 3px;
   display: block;
 }
 
-<<<<<<< HEAD
-/* line 53, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
-=======
-/* line 53, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+/* line 54, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul > li:hover:hover, section .filter ul > li:hover:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
   transform: scale(1.05);
   background-color: rgba(55, 55, 55, 0.5);
 }
 
-/* line 59, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 60, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 section .filter ul li {
+  cursor: pointer;
   list-style: none;
   background-color: rgba(55, 55, 55, 0.3);
   color: inherit;
@@ -87,23 +81,23 @@ section .filter ul li {
   box-shadow: 10px 5px 15px black;
 }
 
-/* line 71, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 73, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 footer {
   height: 28vh;
 }
 
-/* line 73, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 75, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 footer .social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 78, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 footer .social-media a img {
   width: 100%;
 }
 
-/* line 82, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 84, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 nav {
   z-index: 20;
   display: grid;
@@ -117,17 +111,17 @@ nav {
   bottom: 0%;
 }
 
-/* line 94, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 96, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 nav a img {
   width: 100%;
 }
 
-/* line 101, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 103, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 104, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 106, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -135,18 +129,18 @@ header {
   background: linear-gradient(90deg, #ffd9e6 0%, #b6e2ff 100%);
 }
 
-/* line 109, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 111, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header img {
   width: 100%;
 }
 
-/* line 112, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 114, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header input {
   display: flex;
   align-self: center;
 }
 
-/* line 116, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+/* line 118, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
 header .seach_bar {
   width: 75%;
   height: 40%;
@@ -156,27 +150,23 @@ header .seach_bar {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 131, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 133, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 40vh);
   }
-  /* line 135, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 137, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   main .product_box {
     display: grid;
     grid-template-columns: 1fr;
   }
-<<<<<<< HEAD
-  /* line 138, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
-=======
-  /* line 138, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+  /* line 140, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   main .product_box:hover figcaption, main .product_box:active figcaption {
     opacity: 1;
     transition: 0.5s;
   }
-  /* line 142, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 144, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   main .product_box img {
     grid-column: 1/2;
     grid-row: 1/3;
@@ -184,30 +174,26 @@ header .seach_bar {
     width: auto;
     height: 100%;
   }
-  /* line 149, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 151, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   main .product_box figcaption {
     opacity: 0;
   }
-  /* line 157, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 159, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter {
     font-size: 1.5em;
     width: 20vw;
   }
-  /* line 163, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 165, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li > ul {
     position: absolute;
     left: calc(4% - 1vw);
   }
-  /* line 167, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
+  /* line 169, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li > ul li {
     width: 13vw;
     font-size: 0.8em;
   }
-<<<<<<< HEAD
-  /* line 172, C:/Users/Trine/Documents/TrineWebProjekts/Bufas/scss/boy_shop.scss */
-=======
-  /* line 172, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
->>>>>>> a58671ffb30083796bfc8a6a0a2ca75b73a72595
+  /* line 174, C:/Users/Zainde/github/Bufas/scss/boy_shop.scss */
   section .filter ul > li:hover:hover, section .filter ul > li:hover:active, section .filter ul > li:active > ul li:hover, section .filter ul > li:active > ul li:active {
     background-color: rgba(55, 55, 55, 0.7);
   }
