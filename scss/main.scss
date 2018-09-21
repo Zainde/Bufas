@@ -55,11 +55,16 @@ input{
 //
 //
     }
-  a img{
+  a {
+    grid-row: 1/4;
+    grid-column: 1/2;
 
-        grid-row: 1/4;
+      img{
         width: 100%;
-        grid-column: 1/2;
+
+
+  }
+
     }
     //
     //
