@@ -1,0 +1,39 @@
+.product_box{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+  img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+  }
+  figcaption{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5px;
+    background-color:rgba(55,55,55,0.5);
+    color: white;
+  }
+}
+
+.filter{
+  ul{
+    border: 1px solid red;
+    > li{
+      border: 1px solid black;
+      > ul li{
+        display: none;
+      }
+      &:hover > ul li{
+        display: block;
+      }
+    }
+    li{
+      border: 1px solid black;
+      background-color: inherit;
+      color:inherit;
+      font-size: inherit;
+      box-shadow: 10px 5px 15px black;
+    }
+  }
+}
